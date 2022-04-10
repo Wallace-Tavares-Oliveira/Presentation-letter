@@ -1,0 +1,66 @@
+:root {
+    --primaryWhite: #fff;
+    --primaryBlack: #000;
+    --secondaryWhite: rgb(243,243,243);
+    --bgEffect: rgb(255,191,71);
+    --bgCard: #202729;
+    --shadow: rgba(0,0,0,.25);
+}
+
+body {
+    background: var(--secondaryWhite);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.card {
+    background: var(--primaryWhite);
+    display: flex;
+    flex-direction: row;
+    width: 500px;
+    height: 300px;
+    padding-right: 40px;
+}
+
+.image {
+    background: var(--bgCard);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+}
+
+.image-profile {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 5px solid var(--bgEffect);
+}
+
+.profile-name, .social-icons {
+    text-align: center;
+}
+.informations {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 300px;
+    padding: 20px;
+    font-size: 14px;
+}
+
+.social-media{
+    background: var(--bgEffect);
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    margin: 4px;
+    text-align: center;
+    border-radius: 50%;
+    box-shadow: 0 10ppx 15px var(--shadow) ;
+}
+
+
